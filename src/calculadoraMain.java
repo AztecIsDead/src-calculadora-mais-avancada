@@ -23,9 +23,17 @@ public class calculadoraMain {
 
         switch (op) {
             case 1:
-                
-
-
+                numsalvo = proc.soma(num1, num2);
+                System.out.println(numsalvo);
+            case 2:
+                numsalvo = proc.sub(num1, num2);
+                System.out.println(numsalvo);
+            case 3:
+                numsalvo = proc.mult(num1, num2);
+                System.out.println(numsalvo);
+            case 4:
+                numsalvo = proc.div(num1, num2);
+                System.out.println(numsalvo);
 
         }//switch
     }//args bs

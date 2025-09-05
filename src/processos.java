@@ -1,15 +1,14 @@
 public class processos {
-    public int soma(int num1, int num2){
+    public double soma(double num1, double num2){
    return num1 + num2;
    }//soma
-public int sub(int num1, int num2){
+public double sub(double num1, double num2){
         return num1 - num2;
 }//sub
-public int mult(int num1, int num2){
+public double mult(double num1, double num2){
        return num1 * num2;
 }//mult
-    public int div(int num1, int num2){
+    public double div(double num1, double num2){
         return num1 / num2;
-
     }//div
 }//processos
